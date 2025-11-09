@@ -9,7 +9,7 @@ class Solution:
         }
 
         for ch in s:
-            if ch in mapping.keys():
+            if ch in mapping.values():
                 stack.append(ch)
             else:
                 if stack:
